@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  baseURL: 'http://demo.intelehealth.io/openmrs/ws/rest/v1',
-  baseURLCoreApp : 'http://demo.intelehealth.io/openmrs/coreapps/diagnoses',
-  baseURLLegacy: 'http://demo.intelehealth.io/openmrs',
+  baseURL: 'http://35.170.79.207:8081/openmrs-standalone/ws/rest/v1',
+  baseURLCoreApp : 'http://35.170.79.207:8081/openmrs-standalone/coreapps/diagnoses',
+  baseURLLegacy: 'http://35.170.79.207:8081/openmrs-standalone',
   mindmapURL: 'http://localhost:3004/api'
 };
 
@@ -18,3 +18,6 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+  //baseURL: 'http://demo.intelehealth.io/openmrs/ws/rest/v1',
+  //baseURLCoreApp : 'http://demo.intelehealth.io/openmrs/coreapps/diagnoses',
+  //baseURLLegacy: 'http://demo.intelehealth.io/openmrs',
